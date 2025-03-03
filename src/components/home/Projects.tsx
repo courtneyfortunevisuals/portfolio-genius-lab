@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion'; // Note: We're mimicking this functionality with CSS
 
-const projects = [
+export const projects = [
   {
     id: "project1",
     title: "Minimalist E-Commerce",
